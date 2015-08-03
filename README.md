@@ -1,4 +1,6 @@
 # hbase-sql
+v0.1.0 2013-1-9
+
 Automatically exported from http://code.google.com/p/hbase-sql
 
 通过sql来查询hbase上的数据
@@ -65,21 +67,21 @@ SELECT * FROM report1 limit 3 offset 2      /* 分页 */
 ## 如何使用
 1. 在Download中下载最新版的hbase-sql.jar, 将其放在lib中.
 
-注意项目lib的依赖
-* commons-beanutils-core-1.8.0.jar
-* commons-configuration-1.6.jar
-* commons-dbutils-1.5.jar
-* commons-lang-2.5.jar
-* commons-logging-1.1.1.jar
-* hadoop-core-1.0.4.jar
-* hbase-0.94.3.jar
-* jsqlparser-0.7.0.jar
-* log4j-1.2.16.jar
-* ojdbc14-10.2.0.5.jar
-* protobuf-java-2.4.0a.jar
-* slf4j-api-1.4.3.jar
-* slf4j-log4j12-1.4.3.jar
-* zookeeper-3.4.3.jar
+        注意项目lib的依赖
+        * commons-beanutils-core-1.8.0.jar
+        * commons-configuration-1.6.jar
+        * commons-dbutils-1.5.jar
+        * commons-lang-2.5.jar
+        * commons-logging-1.1.1.jar
+        * hadoop-core-1.0.4.jar
+        * hbase-0.94.3.jar
+        * jsqlparser-0.7.0.jar
+        * log4j-1.2.16.jar
+        * ojdbc14-10.2.0.5.jar
+        * protobuf-java-2.4.0a.jar
+        * slf4j-api-1.4.3.jar
+        * slf4j-log4j12-1.4.3.jar
+        * zookeeper-3.4.3.jar
 
 2. 在项目的src中配置好hbase-site.xml, 否则无法连接到hbase来体验hbase-sql的功能
 
